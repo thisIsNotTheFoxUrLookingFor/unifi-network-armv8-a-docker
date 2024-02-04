@@ -4,5 +4,5 @@
 
 while [ 2 -gt 1 ];
 do
-  sleep 120
+  sleep 60
 done
