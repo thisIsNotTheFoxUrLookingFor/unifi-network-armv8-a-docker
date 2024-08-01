@@ -10,8 +10,6 @@ services:
       - var-lib-unifi:/var/lib/unifi
       - usr-lib-unifi:/usr/lib/unifi
     network_mode: host
-    devices:
-      - /dev/log:/dev/log
     restart: on-failure
 
 volumes:
